@@ -5,8 +5,4 @@ public class Cnidarians extends Invertebrate {
     protected void eat() {
 
     }
-
-    protected void roam() {
-
-    }
 }

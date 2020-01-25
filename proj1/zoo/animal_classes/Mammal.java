@@ -5,8 +5,4 @@ public class Mammal extends Vertebrate {
     protected void eat() {
 
     }
-
-    protected void roam() {
-
-    }
 }

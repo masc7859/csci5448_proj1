@@ -6,7 +6,4 @@ public class Reptile extends Vertebrate {
 
     }
 
-    protected void roam() {
-
-    }
 }
