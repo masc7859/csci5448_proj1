@@ -4,7 +4,6 @@ import proj1.zoo.animals.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 public class Main {
 

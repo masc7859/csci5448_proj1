@@ -8,7 +8,20 @@ public class GrizzlyBear extends Mammal{
     }
 
     public void makeNoise(){
-        System.out.println(name + " the " + getAnimalType() + " makes noise.");
+        double randAction = Math.random();
+        System.out.println(randAction);
+        if (randAction < .25){
+            System.out.println(name + " the " + getAnimalType() + " makes noise.");
+        }
+        else if (randAction < .50){
+            eat();
+        }
+        else if (randAction < .75){
+            roam();
+        }
+        else{
+            sleep();
+        }
     }
 
     @Override
