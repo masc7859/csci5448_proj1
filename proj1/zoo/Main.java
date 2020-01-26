@@ -2,12 +2,14 @@ package proj1.zoo;
 
 import proj1.zoo.animals.*;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Vector<Animal> animals = new Vector<Animal> ();
+    public static List<Animal> populateZoo(){
+        List<Animal> animals = new ArrayList<Animal>();
         animals.add(new Alligator("Abe"));
         animals.add(new GrizzlyBear("Gabby"));
         animals.add(new Jellyfish("Joe"));
@@ -16,8 +18,20 @@ public class Main {
         animals.add(new Snake("Sam"));
         animals.add(new Squid("Sally"));
         animals.add(new Tiger("Timothy"));
+        return animals;
+    }
+
+    public static void main(String[] args) {
+        List<Animal> zooPopulation = populateZoo();
+
+        System.out.println("Animals in zoo:");
+        for (Animal animal : zooPopulation) {
+            System.out.println(animal.getName() + " the " + animal.getAnimalType());
+        }
+        System.out.println("\n");
 
         Zookeeper zeus = new Zookeeper();
-        zeus.doDuties(animals);
+        zeus.doDuties(zooPopulation);
+        zeus.shutdownZoo();
     }
 }

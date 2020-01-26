@@ -1,35 +1,58 @@
 package proj1.zoo;
 
+import proj1.zoo.animals.*;
+
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Vector;
 
-public class Zookeeper {
-    public void doDuties(Vector<Animal> animals){
+public class Zookeeper{
+
+    public void doDuties(List<Animal> animals){
         for (Animal animal : animals) {
-            wakeupAnimals(animal);
-            callAnimals(animal);
-            feedAnimals(animal);
-            exerciseAnimals(animal);
-            sleepAnimals(animal);
+            wakeupAnimal(animal);
+        }
+        for (Animal animal : animals) {
+            callAnimal(animal);
+        }
+        for (Animal animal : animals) {
+            feedAnimal(animal);
+        }
+        for (Animal animal : animals) {
+            exerciseAnimal(animal);
+        }
+        for (Animal animal : animals) {
+            sleepAnimal(animal);
         }
     }
-    private void wakeupAnimals(Animal animal){
-        System.out.println("Waking Up: ");
+    
+    private void wakeupAnimal(Animal animal){
+        System.out.println("Waking Up Animal: ");
+        animal.wakeup();
     }
 
-    private void callAnimals(Animal animal){
-        System.out.println("Calling: ");
+    private void callAnimal(Animal animal){
+        System.out.println("Calling Animal: ");
+        animal.makeNoise();
     }
 
-    private void feedAnimals(Animal animal){
-        System.out.println("Feeding: ");
+    private void feedAnimal(Animal animal){
+        System.out.println("Feeding Animal: ");
+        animal.eat();
     }
 
-    private void exerciseAnimals(Animal animal){
-        System.out.println("Exercising: ");
+    private void exerciseAnimal(Animal animal){
+        System.out.println("Exercising Animal: ");
+        animal.roam();
     }
 
-    private void sleepAnimals(Animal animal){
-        System.out.println("Putting to Sleep: ");
+    private void sleepAnimal(Animal animal) {
+        System.out.println("Putting to Sleep Animal: ");
+        animal.sleep();
+    }
+
+    public void shutdownZoo(){
+        System.out.println("Shutting Down Zoo");
     }
 }
