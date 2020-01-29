@@ -9,7 +9,6 @@ public class GrizzlyBear extends Mammal{
 
     public void makeNoise(){
         double randAction = Math.random();
-        System.out.println(randAction);
         if (randAction < .25){
             System.out.println(name + " the " + getAnimalType() + " makes noise.");
         }

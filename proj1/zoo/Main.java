@@ -16,7 +16,7 @@ public class Main {
         animals.add(new Shrimp("Sheryl"));
         animals.add(new Snake("Sam"));
         animals.add(new Squid("Sally"));
-        animals.add(new Tiger("Timothy"));
+        animals.add(new Tiger("Timothy"));x
         return animals;
     }
 
