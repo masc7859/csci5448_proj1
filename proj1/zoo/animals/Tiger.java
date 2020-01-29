@@ -7,6 +7,7 @@ public class Tiger extends Mammal{
         name = animalName;
     }
 
+    @Override
     public void makeNoise(){
         System.out.println(name + " the " + getAnimalType() + " makes noise.");
     }

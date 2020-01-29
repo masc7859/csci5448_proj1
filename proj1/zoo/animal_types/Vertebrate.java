@@ -1,6 +1,7 @@
 package proj1.zoo.animal_types;
 import proj1.zoo.Animal;
 
+// Second level of inheritance
 public class Vertebrate extends Animal{
 
     @Override

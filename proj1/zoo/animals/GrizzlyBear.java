@@ -7,6 +7,8 @@ public class GrizzlyBear extends Mammal{
         name = animalName;
     }
 
+    // This method causes the bear to be mischievous, reacts randomly after being told to make noise
+    @Override
     public void makeNoise(){
         double randAction = Math.random();
         if (randAction < .25){

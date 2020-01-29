@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Main {
 
+    //Instantiate and name all animals in the zoo
     public static List<Animal> populateZoo(){
         List<Animal> animals = new ArrayList<Animal>();
         animals.add(new Alligator("Abe"));
@@ -23,6 +24,7 @@ public class Main {
     public static void main(String[] args) {
         List<Animal> zooPopulation = populateZoo();
 
+        //Print out all the animals in the zoo, to verify the zookeeper is acting with all of them
         System.out.println("Animals in zoo:");
         for (Animal animal : zooPopulation) {
             System.out.println(animal.getName() + " the " + animal.getAnimalType());

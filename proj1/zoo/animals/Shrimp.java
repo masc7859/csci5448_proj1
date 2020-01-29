@@ -7,6 +7,7 @@ public class Shrimp extends Mollusks{
         name = animalName;
     }
 
+    @Override
     public void makeNoise(){
         System.out.println(name + " the " + getAnimalType() + " makes noise.");
     }

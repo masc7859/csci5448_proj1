@@ -1,5 +1,6 @@
 package proj1.zoo;
 
+// Top level of inheritance
 public class Animal {
     protected String name;
 

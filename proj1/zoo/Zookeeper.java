@@ -3,8 +3,10 @@ package proj1.zoo;
 import proj1.zoo.animals.*;
 import java.util.List;
 
+// Zookeeper is tasked with taking care of the animals in the zoo
 public class Zookeeper{
 
+    //Iterates over all the animals in the zoo and do whats required: wakeup, make noise, eat, roam, sleep.
     public void doDuties(List<Animal> animals){
         for (Animal animal : animals) {
             wakeupAnimal(animal);
@@ -48,6 +50,7 @@ public class Zookeeper{
         animal.sleep();
     }
 
+    //Java takes care of garbage collection, so this method is more symbolic than functional.
     public void shutdownZoo(){
         System.out.println("Shutting Down Zoo");
     }

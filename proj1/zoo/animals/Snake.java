@@ -7,6 +7,7 @@ public class Snake extends Reptile{
         name = animalName;
     }
 
+    @Override
     public void makeNoise(){
         System.out.println(name + " the " + getAnimalType() + " makes noise.");
     }
