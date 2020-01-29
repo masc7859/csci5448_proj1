@@ -1,0 +1,95 @@
+/opt/idea/idea-IC-193.6015.39/jbr/bin/java -javaagent:/opt/idea/idea-IC-193.6015.39/lib/idea_rt.jar=45617:/opt/idea/idea-IC-193.6015.39/bin -Dfile.encoding=UTF-8 -classpath /home/max-schwarz/IdeaProjects/proj1/out/production/proj1 proj1.zoo.Main
+Animals in zoo:
+Abe the Alligator
+Gabby the GrizzlyBear
+Joe the Jellyfish
+Sasha the SeaAnemone
+Sheryl the Shrimp
+Sam the Snake
+Sally the Squid
+Timothy the Tiger
+
+
+Waking Up Animal: 
+Abe the Alligator wakes up.
+Waking Up Animal: 
+Gabby the GrizzlyBear wakes up.
+Waking Up Animal: 
+Joe the Jellyfish wakes up.
+Waking Up Animal: 
+Sasha the SeaAnemone wakes up.
+Waking Up Animal: 
+Sheryl the Shrimp wakes up.
+Waking Up Animal: 
+Sam the Snake wakes up.
+Waking Up Animal: 
+Sally the Squid wakes up.
+Waking Up Animal: 
+Timothy the Tiger wakes up.
+Calling Animal: 
+Abe the Alligator makes noise.
+Calling Animal: 
+Gabby the GrizzlyBear eats
+Calling Animal: 
+Joe the Jellyfish makes noise.
+Calling Animal: 
+Sasha the SeaAnemone makes noise.
+Calling Animal: 
+Sheryl the Shrimp makes noise.
+Calling Animal: 
+Sam the Snake makes noise.
+Calling Animal: 
+Sally the Squid makes noise.
+Calling Animal: 
+Timothy the Tiger makes noise.
+Feeding Animal: 
+Abe the Alligator eats.
+Feeding Animal: 
+Gabby the GrizzlyBear eats
+Feeding Animal: 
+Joe the Jellyfish eats.
+Feeding Animal: 
+Sasha the SeaAnemone eats.
+Feeding Animal: 
+Sheryl the Shrimp eats.
+Feeding Animal: 
+Sam the Snake eats.
+Feeding Animal: 
+Sally the Squid eats.
+Feeding Animal: 
+Timothy the Tiger eats
+Exercising Animal: 
+Abe the Alligator roams around.
+Exercising Animal: 
+Gabby the GrizzlyBear roams around.
+Exercising Animal: 
+Joe the Jellyfish roams around.
+Exercising Animal: 
+Sasha the SeaAnemone roams around.
+Exercising Animal: 
+Sheryl the Shrimp roams around.
+Exercising Animal: 
+Sam the Snake roams around.
+Exercising Animal: 
+Sally the Squid roams around.
+Exercising Animal: 
+Timothy the Tiger roams around.
+Putting to Sleep Animal: 
+Abe the Alligator goes to sleep.
+Putting to Sleep Animal: 
+Gabby the GrizzlyBear goes to sleep.
+Putting to Sleep Animal: 
+Joe the Jellyfish goes to sleep.
+Putting to Sleep Animal: 
+Sasha the SeaAnemone goes to sleep.
+Putting to Sleep Animal: 
+Sheryl the Shrimp goes to sleep.
+Putting to Sleep Animal: 
+Sam the Snake goes to sleep.
+Putting to Sleep Animal: 
+Sally the Squid goes to sleep.
+Putting to Sleep Animal: 
+Timothy the Tiger goes to sleep.
+Shutting Down Zoo
+
+Process finished with exit code 0
