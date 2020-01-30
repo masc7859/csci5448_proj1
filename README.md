@@ -1,6 +1,6 @@
 # OOAD Homework/Project 1 : Zoo
 #### Team: 
-Max Schwarz
+Max Schwarz<br/>
 Wil Culkin
 #### Comments
 No special instructions, just run.<br/>
